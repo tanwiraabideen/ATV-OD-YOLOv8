@@ -1,0 +1,128 @@
+#file {
+    color: black;
+    font-family: 'Montserrat';font-size: 10px   
+}
+
+body {
+    width: 100%;
+    background: linear-gradient(to right, rgb(242, 112, 156), rgb(255, 148, 114));
+}
+
+input::file-selector-button {
+    display: inline-block;
+    text-transform: uppercase;
+    color: #fff;
+    background: red;
+    text-align: center;
+    padding: 15px 40px;
+    letter-spacing: 1.5px;
+    user-select: none;
+    cursor: pointer;
+    border-radius: 12px;
+    outline: none;
+    border: 1px;
+    font-family: 'Montserrat';font-size: 10px   
+}
+
+#uploadBtn {
+    display: inline-block;
+    text-transform: uppercase;
+    color: #fff;
+    background:red;
+    text-align: center;
+    padding: 15px 40px;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    user-select: none;
+    cursor: pointer;
+    border-radius: 12px;
+    outline: none;
+    border: 1px;
+    font-family: 'Montserrat';font-size: 22px
+}
+
+input::file-selector-button:hover {
+    background: rgb(207, 0, 0);
+}
+
+#uploadBtn:hover {
+    background: rgb(207, 0, 0);
+}
+
+
+#interfaceDiv {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 100px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 2px;
+}
+
+h1 {
+    text-align-last: center;
+    font-size: 120px;
+}
+
+#detectionHeading {
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 4px;    
+}
+
+#subtext {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: -75px;
+    font-size: 25px;
+}
+
+#formDiv {
+    display: grid;
+    place-items: center;
+    padding-top: 50px;
+}
+
+#detectionMainDiv {
+    display: grid;
+    justify-items: center;
+}
+
+#instructions {
+    width: 800px;
+    display: grid;
+    justify-items: center;
+    text-align: center;
+}
+
+#instructionsTitle {
+    margin-top: 125px;
+    font-size: 40px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    letter-spacing: 2px;
+}
+
+h3 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    letter-spacing: 4px;
+    font-size: 30px;
+}
+
+li {
+    margin-bottom: 20px;
+    font-family: 'Montserrat';font-size: 16px
+}
+
+#instructionList {
+    text-align: center;
+    list-style: none;
+    
+}

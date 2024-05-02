@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrailTune -ATV</title>
+    <link rel="icon" href="/static/659a765ffa97c26867319af8_IMG_1592.jpg">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link href='//fonts.googleapis.com/css?family=Montserrat:thin,extra-light,light,100,200,300,400,500,600,700,800' rel='stylesheet' type='text/css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="interfaceDiv">
+        <h1>TrailTune</h1>
+        <p id="subtext">Upload your bike's picture here</p>
+        <div id="formDiv">
+            <form action="/upload"  method="post" enctype="multipart/form-data">
+                <input class="button" id="file" name="file" type="file"/>
+                <br /><br />
+                <input class="button" id="uploadBtn" type="submit" value="Upload Image">
+            </form>
+        </div>  
+    </div>
+</body>
+</html>
