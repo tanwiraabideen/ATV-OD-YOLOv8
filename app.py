@@ -80,15 +80,15 @@ def upload():
     radiator_cap_count = 0
     for x in range(len(classes)):
         if classes[x] == 'front_wheel' and front_wheel_count == 0:
-            webbrowser.open_new_tab('http://127.0.0.1:5000/front-wheel')
+            webbrowser.open_new_tab('https://mail.google.com/')
             front_wheel_count = front_wheel_count + 1
         if classes[x] == 'rear_wheel' and rear_wheel_count == 0:
-            webbrowser.open_new_tab('http://127.0.0.1:5000/rear-wheel')
+            webbrowser.open_new_tab('https://sites.google.com/view/classroom-workspace/')
             rear_wheel_count = rear_wheel_count + 1
         if classes[x] == 'radiator_cap' and radiator_cap_count == 0:
-            webbrowser.open_new_tab('http://127.0.0.1:5000/radiator-cap')
+            webbrowser.open_new_tab('https://www.amazon.ae/')
             radiator_cap_count = radiator_cap_count + 1
         if classes[x] == 'oil_cap' and oil_cap_count == 0:
-            webbrowser.open_new_tab('http://127.0.0.1:5000/oil-cap')
+            webbrowser.open_new_tab('https://www.facebook.com/')
             oil_cap_count = oil_cap_count + 1
-    return redirect('http://127.0.0.1:5000/')
+    return redirect('https://www.notion.so/')
