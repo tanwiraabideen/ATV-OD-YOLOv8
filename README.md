@@ -1,6 +1,6 @@
 #TrailTune - An ATV Maintenance Web App with YOLOv8 Object Detection
 
-[![ATV Detection Video](./templates/Screenshot 2024-07-05 at 9.32.03 AM.png)](https://www.youtube.com/watch?v=RnhT2BPxIC0)
+[![ATV Detection Video](./templates/Screenshot%202024-07-05%20at%209.32.03%20AM.png)](https://www.youtube.com/watch?v=RnhT2BPxIC0)
 
 ## Overview
 
